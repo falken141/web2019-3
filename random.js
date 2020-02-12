@@ -23,7 +23,7 @@ function hantei2()
     }
 
     else{
-        window.location.href = 'soup23.html';
+        window.location.href = 'soup6.html';
     }
 }
 
@@ -35,7 +35,7 @@ function hantei3()
     }
 
     else{
-        window.location.href = 'soup24.html';
+        window.location.href = 'soup6.html';
     }
 }
 
@@ -47,6 +47,18 @@ function hantei4()
     }
 
     else{
-        window.location.href = 'soup25.html';
+        window.location.href = 'soup6.html';
+    }
+}
+
+function hantei5()
+{
+    if(document.getElementById('deme5').value<=45)
+    {
+        window.location.href = 'soup17.html'; 
+    }
+
+    else{
+        window.location.href = 'soup6.html';
     }
 }
